@@ -96,7 +96,7 @@ function cardboard_worldmap_marker($marker) {
         display: flex;
         justify-content: center;
       }
-      .cardboard-map-marker:hover {
+      .cardboard-map-editor .cardboard-map-marker:hover {
         stroke: red;
       }
     </style>

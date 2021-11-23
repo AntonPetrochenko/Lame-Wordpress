@@ -1,0 +1,14 @@
+/*
+Theme Name: Sixty Ninety
+Theme URI: https://cardboardbox.ru
+Author: Anton Petrochenko @ Cardboard Box
+Author URI: https://cardboardbox.ru
+Description: Feeling skyblue? Try this theme
+Version: 1.0
+License: WTFPL
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 69, lulz
+Text Domain: sixtyninety
+
+Funky theme to lose your job and cry to
+*/

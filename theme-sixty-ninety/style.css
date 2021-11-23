@@ -1,0 +1,79 @@
+/*
+Theme Name: Sixty Ninety
+Theme URI: https://cardboardbox.ru
+Author: Anton Petrochenko @ Cardboard Box
+Author URI: https://cardboardbox.ru
+Description: Feeling skyblue? Try this theme
+Version: 1.0
+License: WTFPL
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 69, lulz
+Text Domain: sixtyninety
+
+Funky theme to lose your job and cry to
+*/
+@charset "UTF-8";
+body {
+  font-family: circe, sans-serif;
+  /* а где взять */
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F3F9FE;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header_menu_container ul.menu li {
+  display: inline-block;
+}
+
+.header.desktop {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer.desktop {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  line-height: 50px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 0 35px 0 35px;
+  color: #FFFFFF;
+  background: linear-gradient(62.83deg, #0098D6 33.92%, #7E88C1 100%);
+}
+.button.topdrawer {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.button:hover {
+  background-color: #007FC8;
+}
+.button:active {
+  background-color: #006ABB;
+}
+.button:disabled {
+  background-color: #E2EDF7;
+}
+.button.alt {
+  text-transform: none;
+}
+.button.alt:hover {
+  background-color: #007FC8;
+}
+.button.alt:active {
+  background-color: #006ABB;
+}
+.button.alt:disabled {
+  background-color: #E2EDF7;
+}

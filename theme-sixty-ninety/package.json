@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-append-prepend": "^1.0.9",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  }
+}

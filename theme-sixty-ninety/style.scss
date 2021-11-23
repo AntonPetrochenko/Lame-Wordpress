@@ -1,0 +1,85 @@
+$color-1: #000000;
+$color-2: #4E5B67;
+$color-3: #0098D6;
+$color-4: #90D1F4;
+$color-5: #FFFFFF;
+$color-bg: #F3F9FE;
+$grad: linear-gradient(62.83deg, #0098D6 33.92%, #7E88C1 100%);
+
+$color-hover: #007FC8;
+$color-active: #006ABB;
+$color-disabled: #E2EDF7;
+
+body {
+  font-family: circe, sans-serif; /* а где взять */
+  font-style: normal;
+  font-weight: 400;
+  background-color: $color-bg;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header_menu_container {
+  ul.menu {
+    li {
+      display: inline-block
+    }
+  }
+}
+
+.header {
+  &.desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.footer {
+  &.desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.button {
+  line-height: 50px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 0 35px 0 35px;
+  
+  &.topdrawer { border-top-left-radius: 0; border-top-right-radius: 0;}
+
+  color: $color-5;
+
+  background: $grad;
+
+  &:hover {
+    background-color: $color-hover;
+  }
+  &:active {
+    background-color: $color-active;
+  }
+  &:disabled {
+    background-color: $color-disabled;
+  }
+
+  &.alt {
+    text-transform: none;
+    &:hover {
+      background-color: $color-hover;
+    }
+    &:active {
+      background-color: $color-active;
+    }
+    &:disabled {
+      background-color: $color-disabled;
+    }
+  }
+}
